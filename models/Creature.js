@@ -44,6 +44,6 @@ const courseSchema = new mongoose.Schema({
 { timestamps: true}
 );
 
-const Animal = mongoose.model('Animal', courseSchema);
+const Creature = mongoose.model('Creature', courseSchema);
 
-module.exports = Animal;
+module.exports = Creature;

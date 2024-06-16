@@ -25,11 +25,11 @@ const userSchema = new mongoose.Schema({
     },
     createdPosts: [{
         type: mongoose.Types.ObjectId,
-        ref: 'Animal',
+        ref: 'Creature',
     }],
     votedPosts: [{
         type: mongoose.Types.ObjectId,
-        ref: 'Animal',
+        ref: 'Creature',
     }],
 }, {
     collation: {

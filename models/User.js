@@ -35,9 +35,9 @@ const userSchema = new mongoose.Schema({
     collation: {
         locale: 'en',
         strength: 2
-    }
-},
-{ timestamps: true},
+    }, 
+    timestamps: true
+}
 );
 
 userSchema.pre('save', async function() {
